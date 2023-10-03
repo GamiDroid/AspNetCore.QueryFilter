@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore.QueryFilter", "AspNetCore.QueryFilter\AspNetCore.QueryFilter.csproj", "{22DA4A31-769E-4D7E-991A-32B72CE069A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.QueryFilter", "AspNetCore.QueryFilter\AspNetCore.QueryFilter.csproj", "{22DA4A31-769E-4D7E-991A-32B72CE069A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmDemo.Server", "BlazorWasmDemo\Server\BlazorWasmDemo.Server.csproj", "{B396FDE8-94D5-43B5-865A-1129E5DD067F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmDemo.Client", "BlazorWasmDemo\Client\BlazorWasmDemo.Client.csproj", "{DD07999C-C5A5-4E83-9D48-FF135CB6BA43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmDemo.Shared", "BlazorWasmDemo\Shared\BlazorWasmDemo.Shared.csproj", "{90A6FE47-74ED-4D93-97ED-7A9AD36BA0DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{22DA4A31-769E-4D7E-991A-32B72CE069A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22DA4A31-769E-4D7E-991A-32B72CE069A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22DA4A31-769E-4D7E-991A-32B72CE069A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B396FDE8-94D5-43B5-865A-1129E5DD067F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B396FDE8-94D5-43B5-865A-1129E5DD067F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B396FDE8-94D5-43B5-865A-1129E5DD067F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B396FDE8-94D5-43B5-865A-1129E5DD067F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD07999C-C5A5-4E83-9D48-FF135CB6BA43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD07999C-C5A5-4E83-9D48-FF135CB6BA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD07999C-C5A5-4E83-9D48-FF135CB6BA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD07999C-C5A5-4E83-9D48-FF135CB6BA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A6FE47-74ED-4D93-97ED-7A9AD36BA0DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A6FE47-74ED-4D93-97ED-7A9AD36BA0DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A6FE47-74ED-4D93-97ED-7A9AD36BA0DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A6FE47-74ED-4D93-97ED-7A9AD36BA0DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
